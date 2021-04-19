@@ -9,7 +9,7 @@ import time
 
 def InputData():
     registWindow.withdraw()
-    buttonFont = font.Font(family='Calibri', size=11, weight='bold')
+    buttonFont = font.Font(family='Calibri', size=12, weight='bold')
     inputdata = tkinter.Toplevel(mainWindow, width=wWindow, height=hWindow, highlightthickness=0)
     inputdata.geometry('%dx%d' % (wWindow, hWindow))
     inputdata['background'] = '#ffffff'
